@@ -1,5 +1,5 @@
 # Generic Event Bus
-A synchronous event bus for Unity written in C#, using strictly typed events and generics to reduce runtime overhead.
+A synchronous event bus ~for Unity~ written in C#, using strictly typed events and generics to reduce runtime overhead.
 
 ## Features
 * Events are defined as types, instead of as members in some class or as string IDs.

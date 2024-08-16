@@ -1,9 +1,7 @@
 ﻿using System;
 using System.Collections;
 using System.Collections.Generic;
-using System.Runtime.CompilerServices;
 using GenericEventBus.Helpers;
-using UnityEngine;
 
 namespace GenericEventBus
 {
@@ -81,7 +79,7 @@ namespace GenericEventBus
 					}
 					catch (Exception e)
 					{
-						Debug.LogException(e);
+						Console.Error.WriteLine(e);
 					}
 
 					if (CurrentEventIsConsumed)
@@ -93,7 +91,7 @@ namespace GenericEventBus
 			}
 			catch (Exception e)
 			{
-				Debug.LogException(e);
+				Console.Error.WriteLine(e);
 			}
 			finally
 			{
